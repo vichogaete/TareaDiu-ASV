@@ -15,7 +15,11 @@ export function SiteHeader() {
     <header className="header">
       <div className="header__inner">
         <Link to="/" className="header__brand" onClick={() => setAbierto(false)}>
-          <span className="header__logo"><Megaphone size={20} /></span>
+          <img 
+          className="header__escudo" 
+          src="/logo.png" 
+          alt="Escudo USM"/>
+
           <span>
             <span className="header__title">USM Denuncias</span>
             <span className="header__subtitle">Universidad Técnica Federico Santa María</span>

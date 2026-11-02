@@ -184,6 +184,7 @@ body { font-family: "Inter", system-ui, sans-serif; line-height: 1.5; }
 .header__link:hover { background: var(--usm-azul-claro); }
 .header__link--active { background: var(--usm-azul-claro); box-shadow: inset 0 -3px 0 var(--usm-naranja); }
 .header__notice { background: var(--usm-naranja); color: var(--usm-azul); font-size: .8rem; font-weight: 600; text-align: center; padding: .3rem 1rem; }
+.header__escudo { width: auto; height: 48px; border-radius: 12px; object-fit: contain; flex-shrink: 0; }
 @media (min-width: 860px) {
   .header__toggle { display: none; }
   .header__nav { display: flex; flex-direction: row; width: auto; padding: 0; gap: .25rem; }
