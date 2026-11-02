@@ -1,35 +1,24 @@
-# frontend-sample-app
+# Pixel Perfect Recreation
 
-Basic Frontend Development Environment to start an app with Webpack
+Implement exactly the screenshot and nothing else
 
-This repo includes `Webpack` to start an environment to build frontend views using `React`.
+This project was built with [Lovable](https://lovable.dev).
 
-### Requirements
+## Build with Lovable
 
-- Node >= 16.13.1
-- npm >= 8.1.2
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/69fe39be-b567-4471-84be-7ded9a8afd48).
 
-### Quick start
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
-Install dependences
+## Development
 
-```
-npm install
-```
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-Launch environment
-
-```
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
 npm run dev
 ```
-
-Now you can open http://localhost:5050
-
-### Packages included
-
-- [Webpack](https://webpack.js.org/)
-- [React Router](https://reactrouter.com/en/main)
-
-### About stylesheets
-
-- Sample stylesheets were written using the [BEM](https://getbem.com/) structure

@@ -12,3 +12,69 @@ html, body {
 * {
   font-family: 'Open Sans', sans-serif;
 }
+
+/* Paleta de colores USM Denuncias */
+
+:root {
+  --azul: #003B71;
+  --naranja: #F28C28;
+  --crema: #FFF3E5;
+  --blanco: #FFFFFF;
+  --texto: #243247;
+}
+
+body {
+  background-color: var(--crema);
+  color: var(--texto);
+}
+
+.layout {
+  background-color: var(--crema);
+  min-height: 100vh;
+}
+
+.layout__title {
+  background-color: var(--azul);
+  color: var(--blanco);
+  padding: 24px;
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: var(--azul);
+  padding: 12px 24px;
+}
+
+.nav-bar__link {
+  color: var(--blanco);
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-bar__link--active {
+  background-color: var(--naranja);
+  color: var(--texto);
+}
+
+.layout__page {
+  background-color: var(--blanco);
+  margin: 24px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+button {
+  background-color: var(--naranja);
+  color: var(--texto);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FFAB51;
+}
